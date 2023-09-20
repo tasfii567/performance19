@@ -1,0 +1,41 @@
+span{
+    color: red
+}
+.one p:nth-of-type(2){
+    background-color: palegreen;
+}
+.two p:nth-of-type(even){
+    background-color: palevioletred;
+}
+.three p:nth-of-type(odd){
+    background-color: powderblue;
+}
+.three p:only-of-type{
+    background-color: yellowgreen;
+}
+input:optional{
+    background-color: aquamarine;
+}
+input:required{
+    background-color: burlywood;
+}
+input:read-only{
+    background-color: cornflowerblue;
+}
+:target{
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+}
+.main div{
+    display: none;
+}
+.main div:target{
+    display: block;
+    background-color: indianred;
+    color: aliceblue;
+}
+p.pe::first-line{
+    font-size: 30px;
+    color: brown;
+}
